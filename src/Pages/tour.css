@@ -1,0 +1,24 @@
+.tour {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+
+#tour-table{
+    font-size: 3vh;
+}
+#tour-table td{
+    padding: 0 16px 0 16px;
+}
+#tour-wrapper{
+    width: 60%;
+    opacity: 0.8;
+}
+#header{
+    font-size: 5vh;
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+.again, .heaven-and-earth, .refuge, .how-come, .you-will-never-end{
+    
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.again {
+    height: 98vh;
+    align-items: flex-start;
+    /* padding-top: 3vh; */
+}
+
+.songlyrics{
+    font-size: 3vh;
+    text-align: center;
+    width: 80%;
+    opacity: 0.75;
+}
+.invisible{
+    opacity: 0;
+}
+.you-will-never-end .songlyrics {
+    color: rgb(70, 22, 22);
+}
+
+.refuge .songlyrics {
+    font-size: 2.7vh;
+    color: rgb(19, 14, 49);
+}
+.how-come .songlyrics{
+    font-size: 3.2vh;
+    color: rgb(29, 44, 44)
+}
+.heaven-and-earth .songlyrics{
+    color: rgb(12, 39, 46);
+}
+/* #let-heaven-come{
+    color: azure;
+} */
+#let-heaven-come:hover{
+    color: rgb(255, 255, 255);
+    transition: 500ms;
+}
+.again .songlyrics{
+    font-size: 2.7vh;
+    color: rgb(0, 26, 5);
+}
