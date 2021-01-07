@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './home.css'
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
+  BrowserRouter as 
   Link
 } from "react-router-dom";
 
@@ -44,6 +42,8 @@ function Home() {
     const i = randomNumber(lyrics)
     const [lyric, setLyric] = useState(lyrics[i].text);
     const [url, setUrl] = useState(lyrics[i].url);
+    console.log(setUrl)
+    console.log(setLyric)
     
     return (
         <div className='home'>

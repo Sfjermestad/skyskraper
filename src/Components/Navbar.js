@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import * as FaIcons from "react-icons/fa";
-import * as AiIcons from "react-icons/ai";
+// import * as AiIcons from "react-icons/ai";
 import { SideBarData } from "./SideBarData";
 import { Link } from 'react-router-dom';
 import './Navbar.css';
@@ -10,9 +10,9 @@ function Navbar() {
 
     const showSidebar = () => setSidebar(!sidebar)
 
-    function test() {
-        console.log('test')
-    }
+    // function test() {
+    //     console.log('test')
+    // }
 
     return (
         <>

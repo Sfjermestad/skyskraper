@@ -4,9 +4,7 @@ import * as AiIcons from "react-icons/ai";
 import logo from './images/Skyskraperlogo.png';
 import './Footer.css';
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
+    BrowserRouter as 
     Link
   } from "react-router-dom";
 
