@@ -6,22 +6,14 @@
     font-size: 2rem;
   }
 
-@media only screen and (max-width: 700) {
-    .about {
-        height: 140vh;
-    }
-}
+
 
 #wrapper{
     width: 60%;
     opacity: 0.8;
 }
 
-@media only screen and (max-width: 700) {
-    #wrapper {
-        width: 90%;
-    }
-}
+
 
 #about-text {
     text-align: justify;
