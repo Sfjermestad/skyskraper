@@ -1,19 +1,25 @@
 .about {
     margin-top: 1vh;
     display: flex;
-    height: 120vh;
+    height: 140vh;
     justify-content: center;
     font-size: 2rem;
   }
+
+@media only screen and (max-width: 700) {
+    .about {
+        height: 140vh;
+    }
+}
 
 #wrapper{
     width: 60%;
     opacity: 0.8;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700) {
     #wrapper {
-        width: 65%;
+        width: 90%;
     }
 }
 
@@ -32,6 +38,12 @@
     margin-top: 1vh;
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    .bandpicture {
+        display: none;
+    }
+  }
 
 @media only screen and (max-width: 600px) {
     #about-text {

@@ -1,3 +1,30 @@
+
+
 #music-wrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 140vh;
+    font-size: 20px;
+}
+
+.release {
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.artwork{
+    display: flex;
+    width: 60%;
+    margin-bottom: 8px;
+}
+
+.release-title{
+    font-weight: bold;
 }
