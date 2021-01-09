@@ -1,24 +1,20 @@
 .about {
     margin-top: 1vh;
     display: flex;
-    height: 140vh;
+    height: 100%;
     justify-content: center;
     font-size: 2rem;
   }
 
-
-
 #wrapper{
     width: 60%;
-    opacity: 0.8;
+    
 }
 
-
-
 #about-text {
+    opacity: 0.9;
     text-align: justify;
     font-size: 3vh;
-    opacity: 1;
     padding: 8px;
     /* margin-bottom: 70vh; */
     line-height: 1.4;
@@ -31,15 +27,15 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .bandpicture {
         display: none;
     }
-  }
+  } */
 
 @media only screen and (max-width: 600px) {
     #about-text {
-        font-size: large;
+        font-size: 29px;
         text-align: justify;
         background-color: none;
         opacity: 1;

@@ -15,6 +15,7 @@ function tour() {
                     </tr>
                 </tbody>
             </table>
+            <div id="booking">Please <a href="mailto:contact@skyskraperband.com">contact us</a> for booking</div>
         </div>
     )
 }

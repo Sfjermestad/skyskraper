@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
     return (
-        <>
+        <div id='footer-wrapper'>
             <div className="footer">
                 <div id="logo">
                     <Link to="/">
@@ -34,7 +34,7 @@ function Footer() {
                 </div>
 
             </div>
-        </>
+        </div>
     )
 }
 

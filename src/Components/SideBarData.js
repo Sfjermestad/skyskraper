@@ -13,13 +13,13 @@ export const SideBarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Music',
-        path: '/music',
+        title: 'Tour',
+        path: '/tour',
         cName: 'nav-text'
     },
     {
-        title: 'Tour',
-        path: '/tour',
+        title: 'Music',
+        path: { pathname: "https://distrokid.com/hyperfollow/skyskraper/floor-one" },
         cName: 'nav-text'
     },
 ]

@@ -11,6 +11,14 @@
 #tour-table{
     font-size: 3vh;
 }
+#booking{
+    margin-top: 3vh;
+    font-size: 2.6vh;
+}
+#booking a {
+    color: black;
+    text-decoration: underline;
+}
 #tour-table td{
     padding: 0 16px 0 16px;
 }

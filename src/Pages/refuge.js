@@ -17,7 +17,7 @@ function refuge() {
                 <div>You’re standing tall</div>
                 <div className='invisible'>w</div>
                 <div>Once again I return to You</div>
-                <div>You’re one the I will live to pursue</div>
+                <div>You’re the one I will live to pursue</div>
                 <div className='invisible'>h</div>
                 <div>When I’m walking backwards</div>
                 <div>When I turn my face</div>
@@ -29,7 +29,7 @@ function refuge() {
                 <div>You’re standing tall</div>
                 <div className='invisible'>y</div>
                 <div>Once again I return to You</div>
-                <div>You’re one the I will live to pursue</div>
+                <div>You’re the one I will live to pursue</div>
             </div>
         </div>
     )
