@@ -17,6 +17,13 @@
     font-weight: bold;
     color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  #text {
+      font-size: 6vh;
+  }
+}
+
 .home a {
   text-decoration: none;
 }

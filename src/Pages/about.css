@@ -10,6 +10,11 @@
     width: 60%;
     
 }
+@media only screen and (max-width:600px) {
+    #wrapper {
+        width: 90%;
+    }
+}
 
 #about-text {
     opacity: 0.9;
@@ -18,8 +23,8 @@
     padding: 8px;
     /* margin-bottom: 70vh; */
     line-height: 1.4;
-    background-color: rgb(116, 116, 116);
-    color: rgb(245, 245, 245);
+    /* background-color: rgb(116, 116, 116); */
+    color: rgb(0, 0, 0);
 }
 
 .bandpicture {
@@ -35,7 +40,7 @@
 
 @media only screen and (max-width: 600px) {
     #about-text {
-        font-size: 29px;
+        font-size: 20px;
         text-align: justify;
         background-color: none;
         opacity: 1;
