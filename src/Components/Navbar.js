@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import * as FaIcons from "react-icons/fa";
-// import * as AiIcons from "react-icons/ai";
+import * as AiIcons from "react-icons/ai";
 import { SideBarData } from "./SideBarData";
 import { Link } from 'react-router-dom';
 import './Navbar.css';
@@ -17,12 +17,12 @@ function Navbar() {
     return (
         <>
             <div className="navbar">
-                <Link to="#" className='menu-bars'>
+                <Link to="#" className={sidebar ? 'invisible' : 'menu-bars'}>
                     <FaIcons.FaBars onClick={showSidebar}/>
                 </Link>
-                {/* <Link to="#" className='menu-bars'>
-                    <AiIcons.AiOutlineClose onClick={showSidebar, test}/>
-                </Link> */}
+                <Link to="#" className={sidebar ? 'menu-bars' : 'invisible'}>
+                    <AiIcons.AiOutlineClose onClick={showSidebar}/>
+                </Link>
 
             </div>
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
