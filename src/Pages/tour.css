@@ -2,7 +2,7 @@
     margin-top: 1vh;
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 85vh;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
@@ -29,4 +29,5 @@
 #header{
     font-size: 5vh;
     font-weight: bold;
+    margin-bottom: 3vh;
 }

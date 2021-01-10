@@ -19,7 +19,7 @@ export const SideBarData = [
     },
     {
         title: 'Music',
-        path: { pathname: "https://distrokid.com/hyperfollow/skyskraper/floor-one" },
+        path: '/music',
         cName: 'nav-text'
     },
 ]

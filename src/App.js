@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import home from './Pages/home';
 import tour from './Pages/tour';
 import about from './Pages/about';
-import music from './Pages/music';
+// import music from './Pages/music';
 import refuge from './Pages/refuge';
 import again from './Pages/again';
 import heaven_and_earth from './Pages/heaven-and-earth';
@@ -22,7 +22,7 @@ function App() {
         <Route path='/' exact component={home} />
         <Route path='/tour' component={tour} />
         <Route path='/about' component={about} />
-        <Route path='/music' component={music} />
+        {/* <Route path='/music' component={music} /> */}
         <Route path='/refuge' component={refuge} />
         <Route path='/again' component={again} />
         <Route path='/heavenandearth' component={heaven_and_earth} />

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './music.css';
 import floorone from './images/floor.jpg'
 import again from './images/again.jpg'
@@ -7,11 +7,12 @@ import heaven from './images/heaven.jpg'
 import { Route } from "react-router-dom";
 
 function music() {
-    return (
-        <Route path='/privacy-policy' component={() => { 
-            window.location.href = 'https://distrokid.com/hyperfollow/skyskraper/floor-one'; 
-            return null;
-       }}/>
+
+    useEffect(() => {
+        window.location.href = "https://distrokid.com/hyperfollow/skyskraper/floor-one";  }, []);
+
+    return ( <div></div>
+        
         // <div id='music-wrapper'>
         //     <div className="release">
         //         <img src={floorone} alt="Floor One Cover" className="artwork"></img>

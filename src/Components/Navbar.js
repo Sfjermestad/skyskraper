@@ -33,13 +33,27 @@ function Navbar() {
                         </Link> */}
                     </li>
                     {SideBarData.map((item, index) => {
-                        return (
-                            <li key={index} className={item.cName}>
-                                <Link to={item.path}>
-                                    <span>{item.title}</span>
-                                </Link>
-                            </li>
-                        )
+                        {if (item.title != 'Music') {
+                            return (
+                                <li key={index} className={item.cName}>
+                                    <Link to={item.path}>
+                                        <span>{item.title}</span>
+                                    </Link>
+                                </li>
+                                )
+                            }
+                            else {
+                                return (
+                                    <li key={index} className={item.cName}>
+                                        <a href='https://distrokid.com/hyperfollow/skyskraper/floor-one'>
+                                            <span>{item.title}</span>
+                                        </a>
+                                    </li>
+                                    )
+                            }
+                        }
+
+                        
                     })}
                 </ul>
             </nav>

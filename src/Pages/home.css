@@ -17,6 +17,9 @@
     font-weight: bold;
     color: black;
 }
+.home a {
+  text-decoration: none;
+}
 
 
 .home a {
