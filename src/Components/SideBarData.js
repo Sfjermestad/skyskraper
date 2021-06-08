@@ -22,4 +22,9 @@ export const SideBarData = [
         path: '/music',
         cName: 'nav-text'
     },
+    {
+        title: 'Images',
+        path: '/images',
+        cName: 'nav-text'
+    },
 ]

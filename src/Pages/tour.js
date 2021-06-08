@@ -10,7 +10,7 @@ function tour() {
                 <tbody>
                     <tr>
                         <td>06.07.2021</td>
-                        <td>Skjærgårds music and mission</td>
+                        <td>Skjærgårds music and mission (Canceled!)</td>
                         <td><a href="https://sgmm.no/billetter">Tickets</a></td>
                     </tr>
                 </tbody>

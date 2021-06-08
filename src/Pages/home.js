@@ -29,32 +29,10 @@ function Home() {
         }
     ]
 
-    // let lyrics = 
-    //     [
-    //     "I see tree you see forest, I see rain you see growth", 
-    //     "I see new colours where darkness falls",
-    //     "I see new colours where darkness falls",
-    //     "I see new colours where darkness falls",
-    //     "What feels good isn't always right",
-    //     "You take it all, when my shame is burning",
-    //     "You change my point of view"
-    //     ]
-    // let urls = [
-    //     '/again',
-    //     "/youwillneverend",
-    //     "/youwillneverend",
-    //     "/youwillneverend",
-    //     "/heavenandearth",
-    //     "/refuge",
-    //     "/howcome"
-    // ]
-
     function randomNumber(list) {
         return Math.floor((Math.random() * list.length));
     }
     const index = randomNumber(lyrics)
-    // let lyric = lyrics[index]
-    // let url = urls[index]
     const [lyric, setLyric] = useState(lyrics[index].text);
     const [url, setUrl] = useState(lyrics[index].url);
 
