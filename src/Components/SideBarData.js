@@ -13,6 +13,11 @@ export const SideBarData = [
         cName: 'nav-text'
     },
     {
+        title: 'Images',
+        path: '/images',
+        cName: 'nav-text'
+    },
+    {
         title: 'Tour',
         path: '/tour',
         cName: 'nav-text'
@@ -22,4 +27,5 @@ export const SideBarData = [
         path: '/music',
         cName: 'nav-text'
     },
+
 ]

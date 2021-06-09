@@ -1,12 +1,12 @@
 import React from 'react'
 import './about.css';
-import bandpicture from './images/skyskraperlive.jpg'
+// import bandpicture from '.s/images/skyskraperlive.jpg'
 
 function about() {
     return (
         <div className='about'>
             <div id='wrapper'>
-                <img src={bandpicture} alt="Skyskraper" className="bandpicture"></img>
+                {/* <img src={bandpicture} alt="Skyskraper" className="bandpicture"></img> */}
                 <div id='about-text'>
                 Skyskraper is an up and coming alt/indie act from Stavanger, Norway. 
                 The group formed in 2017, releasing their debut-single "Heaven and Earth" December 2018. 

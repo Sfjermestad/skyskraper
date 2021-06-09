@@ -10,10 +10,6 @@ function Navbar() {
 
     const showSidebar = () => setSidebar(!sidebar)
 
-    // function test() {
-    //     console.log('test')
-    // }
-
     return (
         <>
             <div className="navbar">
@@ -52,8 +48,6 @@ function Navbar() {
                                     )
                             }
                         }
-
-                        
                     })}
                 </ul>
             </nav>
