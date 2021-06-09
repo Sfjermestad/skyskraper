@@ -18,7 +18,7 @@ let ImageData = [
     {image: image6},
 ]
 
-function images() {
+function Images() {
     const [current, setCurrent] = useState(0)
     const length = ImageData.length
     const nextSlide = () => {
@@ -45,4 +45,4 @@ function images() {
     )
 }
 
-export default images
+export default Images
