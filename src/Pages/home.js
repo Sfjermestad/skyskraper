@@ -16,6 +16,14 @@ function Home() {
         url: '/youwillneverend',
         },
         {
+        text: "I see new colours where darkness falls",
+        url: '/youwillneverend',
+        },
+        {
+        text: "What feels good isn't always right",
+        url: '/heavenandearth',
+        },
+        {
         text: "What feels good isn't always right",
         url: '/heavenandearth',
         },

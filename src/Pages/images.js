@@ -36,7 +36,7 @@ function images() {
                 {ImageData.map((image, index) => {
                     return (
                         <div className={index===current ? "slide active" : "slide"} key={index}>
-                            {index === current && (<img src={image.image} alt="image" className="image"></img>)}
+                            {index === current && (<img src={image.image} alt="image" className="image" onClick={nextSlide}></img>)}
                         </div>  
                     )
                 })}
@@ -46,7 +46,3 @@ function images() {
 }
 
 export default images
- 
-{/* <div className={index===current ? "slide active" : "slide"} key={index}>
-                            {index === current && (<img src={image.image} alt="image" className="image"></img>)}
-                        </div>   */}
